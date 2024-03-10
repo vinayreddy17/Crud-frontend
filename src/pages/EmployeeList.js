@@ -17,7 +17,7 @@ const EmployeeList = () => {
     // Fetch employees from backend API
     const fetchEmployees = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/employee/get");
+        const response = await axios.get("https://backend-crud-8ttw.onrender.com/employee/get");
         setEmployees(response.data);
       } catch (error) {
         console.error("Error fetching employees:", error);
@@ -29,7 +29,7 @@ const EmployeeList = () => {
   
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/employee/delete/${id}`);
+      await axios.delete(`https://backend-crud-8ttw.onrender.com/employee/delete/${id}`);
       // Remove the deleted employee from the state
       setEmployees(employees.filter(employee => employee._id !== id));
     } catch (error) {
