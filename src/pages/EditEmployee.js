@@ -107,7 +107,7 @@ const EmployeeEdit = () => {
         <button type="submit">Update</button>
       </form>
      <div>
-      <p> Check employee list for the new users after creating users </p>
+      <p> Check employee list for the new users after creating users <p>
     </div>
     </div>
   );
