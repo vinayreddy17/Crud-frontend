@@ -103,12 +103,10 @@ const EmployeeEdit = () => {
           <label><input type="checkbox" name="course" value="BCA" onChange={handleChange} /> BCA</label>
           <label><input type="checkbox" name="course" value="BSC" onChange={handleChange} /> BSC</label>
         </div>
-        <div>
-          <label>Image Upload:</label>
-          <input type="file" accept="image/*" onChange={handleImageUpload} />
-        </div>
+      
         <button type="submit">Update</button>
       </form>
+    <p> Check employee list for the new users after creating users</p>
     </div>
   );
 };
