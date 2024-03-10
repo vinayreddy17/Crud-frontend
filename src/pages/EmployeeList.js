@@ -39,9 +39,11 @@ const EmployeeList = () => {
   return (
     <div>
       <Navbar />
+    
       <div className="employee-list-container">
         <div className="header">
           <h2>Employee List</h2>
+          <p>you can use the create employee, edit and delete buttons to create edit and delete employees respectively<p>
           <div className="controls">
             <p>Total: {employees.length}</p>
             <Link to="/employees/create">
