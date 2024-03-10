@@ -1,0 +1,59 @@
+/* Navbar styles */
+.navbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar-links a:hover {
+    color: #666;
+  }
+  
+  /* Employee list styles */
+  .employee-list-container {
+    margin: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .controls p {
+    margin-right: 20px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  

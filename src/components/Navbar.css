@@ -1,0 +1,37 @@
+/* Navbar.css */
+.navbar {
+    background-color: #f0f0f0; /* Greyish white background color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-buttons {
+    display: flex;
+  }
+  
+  .right-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000; /* Black color */
+  }
+  
+  .username {
+    margin-right: 10px;
+  }
+  
+  .logout-button {
+    background-color: #ccc; /* Light grey background color */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #000; /* Black color */
+    cursor: pointer;
+  }
+  
