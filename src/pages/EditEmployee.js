@@ -21,9 +21,9 @@ const EmployeeEdit = () => {
   useEffect(() => {
     // Fetch employee data from backend API
     const fetchEmployee = async () => {
-        console.log(`http://localhost:5000/employee/getone/${id}`)
+      
       try {
-        const response = await axios.get(`http://localhost:5000/employee/getone/${id}`);
+        const response = await axios.get(`https://backend-crud-8ttw.onrender.com/employee/getone/${id}`);
         const fetchedEmployee = response.data; // Assuming API returns data in the format { name, email, mobile, designation, gender, course, img }
         setEmployee(fetchedEmployee);
       } catch (error) {
@@ -49,7 +49,7 @@ const EmployeeEdit = () => {
    
   
     try {
-        await axios.put(`http://localhost:5000/employee/update/${id}`, {
+        await axios.put(`https://backend-crud-8ttw.onrender.com/employee/update/${id}`, {
             name: employee.name,
             email: employee.email,
             mobile: employee.mobile,
