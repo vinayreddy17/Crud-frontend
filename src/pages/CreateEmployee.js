@@ -88,8 +88,7 @@ const CreateEmployee = () => {
           <label><input type="checkbox" name="course" value="BSC" onChange={handleChange} /> BSC</label>
         </div>
         <div>
-          <label>Image Upload:</label>
-          <input type="file" accept="image/*" onChange={handleImageUpload} />
+         
         </div>
         <button type="submit">Submit</button>
       </form>
