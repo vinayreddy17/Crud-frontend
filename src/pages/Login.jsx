@@ -18,7 +18,7 @@ const Login = () => {
       return;
     }
     try {
-      const response = await axios.post('http://localhost:5000/login', {
+      const response = await axios.post('https://backend-crud-8ttw.onrender.com/login', {
         f_userName: data.f_userName,
         f_Pwd: data.f_Pwd
       });
