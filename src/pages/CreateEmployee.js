@@ -31,7 +31,7 @@ const CreateEmployee = () => {
     e.preventDefault();
     try {
         console.log(formData);
-      const response = await axios.post('http://localhost:5000/employee/create', formData);
+      const response = await axios.post('https://backend-crud-8ttw.onrender.com/employee/create', formData);
       console.log('Employee created successfully:', response.data);
       // Reset form fields
       setFormData({
